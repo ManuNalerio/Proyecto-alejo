@@ -16,8 +16,9 @@
 
 h4{
   width: 130px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #fff;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #bbbbbb;
+  font-size: 15px;
 }
 
 .navbar ul li {
@@ -31,7 +32,7 @@ h4{
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 1.2rem;
 }
 
@@ -39,7 +40,7 @@ h4{
   content: "";
   height: 3px;
   width: 0%;
-  background: yellowgreen;
+  background: #575757;
   position: absolute;
   left: 0;
   bottom: -12px;
@@ -51,7 +52,9 @@ h4{
 }
 
 hr{
-  background-color: #fff;
+  background-color: #bbbbbb;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
