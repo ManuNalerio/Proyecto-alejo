@@ -16,9 +16,9 @@
 
 h4{
   width: 130px;
-  font-family: 'Cinzel Decorative', cursive;
+  @extend %fuente;
   color: #bbbbbb;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .navbar ul li {
@@ -32,7 +32,7 @@ h4{
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-family: 'Cinzel Decorative', cursive;
+  @extend %fuente;
   font-size: 1.2rem;
 }
 

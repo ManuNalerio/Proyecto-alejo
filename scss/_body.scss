@@ -7,8 +7,9 @@ h1{
     margin-right: 180px;
     text-align: center;
     color: #bbbbbb;
-    font-family: 'Cinzel Decorative', cursive;
+    @extend %fuente;
     font-size: 100px;
+    font-weight: 100;
     margin-bottom: 100px;
 }
 
