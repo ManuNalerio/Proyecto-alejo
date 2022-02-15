@@ -78,39 +78,33 @@ h1 {
   margin-bottom: 100px;
 }
 
-main {
-  max-width: 800px;
-  padding: 1rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fil);
-  grid-template-rows: 200px 200px 200px;
-  grid-gap: 1rem;
-}
-
 img {
-  object-fit: cover;
   width: 100%;
-  height: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-.item-a {
-  grid-row: 1/3;
+.row {
+  display: flex;
+  padding: 5px;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-wrap: wrap;
 }
 
-.item-b {
-  grid-column: 3/5;
+.column {
+  flex: 25%;
+  padding: 5px;
 }
 
-.item-c {
-  grid-row: 2/4;
+.column img {
+  margin-top: 5px;
 }
 
-.item-d {
-  grid-column: 3/5;
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
 }
-
 .firma {
   text-align: center;
   color: #9c9c9c;
