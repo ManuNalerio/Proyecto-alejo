@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -29,11 +28,11 @@
   font-size: 25px;
 }
 
-.img-fluid {
+.div-portada {
   transition: all 0.2s ease-in-out;
 }
 
-.img-fluid:hover {
+.div-portada:hover {
   transform: scale(1.1);
 }
 
@@ -73,7 +72,7 @@
 }
 
 header, .titulo, .text-portada {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 @media only screen and (max-width: 960px) {
