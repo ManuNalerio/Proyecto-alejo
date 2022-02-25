@@ -22,6 +22,22 @@
   background-color: #181818;
 }
 
+/* Text portadas */
+.text-portada {
+  color: #181818;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-fluid {
+  transition: all 0.2s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
+/* About */
 .quien {
   color: blanchedalmond;
   font-size: 38px;
@@ -30,6 +46,7 @@
   font-weight: 100;
 }
 
+/* Boton insta */
 .float {
   position: fixed;
   width: 60px;
@@ -41,7 +58,7 @@
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  box-shadow: 3px 3px 6px black;
   z-index: 100;
 }
 
@@ -55,7 +72,7 @@
   margin-top: 16px;
 }
 
-header, .titulo {
+header, .titulo, .text-portada {
   font-family: "Work Sans", sans-serif;
 }
 

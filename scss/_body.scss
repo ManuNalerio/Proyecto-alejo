@@ -11,6 +11,22 @@
     background-color: #181818;
 }
 
+/* Text portadas */
+.text-portada{
+    color: #181818;
+    text-align: center;
+    @extend %fuente;
+    font-size: 25px;
+}
+
+.img-fluid{
+    transition: all .2s ease-in-out;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+}
+/* About */
 .quien{
     color: blanchedalmond;
     font-size: 38px;
@@ -18,7 +34,7 @@
     margin-right: 100px;
     font-weight: 100;
 }
-
+/* Boton insta */
 .float{
 	position:fixed;
 	width:60px;
@@ -30,7 +46,7 @@
 	border-radius:50px;
 	text-align:center;
     font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 3px 3px 6px rgb(0, 0, 0);
     z-index:100;
 }
 .float:hover {
