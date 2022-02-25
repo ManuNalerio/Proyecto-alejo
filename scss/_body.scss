@@ -1,22 +1,19 @@
 .titulo{
+    width: 100%;
     text-align: center;
     color: blanchedalmond;
     @extend %fuente;
-    font-size: 120px;
-    margin: 50px;
+    font-size: 8rem;
 }
 
 .cuerpo{
-    background-color: rgb(24, 24, 24);
+    background-color: #181818;
 }
 
 .quien{
     color: blanchedalmond;
-    font-size: 50px;
+    font-size: 38px;
     margin-left: 100px;
     margin-right: 100px;
-}
-
-.foto-about{
-    height: 800px;
+    font-weight: 100;
 }
