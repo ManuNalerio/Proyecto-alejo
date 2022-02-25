@@ -4,6 +4,7 @@
     color: blanchedalmond;
     @extend %fuente;
     font-size: 8rem;
+    font-weight: 400;
 }
 
 .cuerpo{
@@ -16,4 +17,28 @@
     margin-left: 100px;
     margin-right: 100px;
     font-weight: 100;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#222222;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+    color: #f0f0f0;
+    background-color:rgb(54, 54, 54);
+}
+
+.my-float{
+	margin-top:16px;
 }
